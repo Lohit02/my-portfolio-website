@@ -43,10 +43,15 @@ const Services = () => {
           className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
             <h2 className="h2 text-accent mb-6 ">What I Do.</h2>
             <h3 className="h3 mb-12 max-w-[455px]">
-              I'm a Freelance Front-end Developer with over 5 years of
-              exprience.
+              1 am student trying  to graduate.
             </h3>
+
+            <a href="https://www.linkedin.com/in/lohit-kumar-biswas-a29024215/">
             <button className="btn btn-sm">See my work</button>
+              </a>
+
+
+           
           </motion.div>
           {/* services */}
           <motion.div

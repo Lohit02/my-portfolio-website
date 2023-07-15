@@ -68,13 +68,13 @@ const Banner = () => {
              whileInView={"show"}
              viewport={{ once: false, amount: 0.7 }}
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/lohit-kumar-biswas-a29024215/">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://github.com/Lohit02/">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/LohitBiswas2001">
                 <FaTwitter />
               </a>
               <a href="#" className="text-gradient btn-link">

@@ -7,6 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Footar from './components/Footar'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Work />
       <Contact />
       {/* <div className='h-[4000px]'></div> */}
+      <Footar/>
     </div>
   );
 };

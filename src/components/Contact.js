@@ -4,8 +4,14 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
+
 const Contact = () => {
+  const handleMailButtonClick = () => {
+    const mailtoLink = `mailto:lohitkumarbiswas@gmail.com`;
+    window.location.href = mailtoLink;
+  };
   return (
+       
     <section className="py-16 lg:section" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
@@ -53,7 +59,7 @@ const Contact = () => {
               rows={6}
               placeholder="Your Message"
             ></textarea>
-            <button className="btn btn-lg">Send Message</button>
+            <button className="btn btn-lg" onClick={handleMailButtonClick}>Send Message</button>
           </motion.form>
         </div>
       </div>

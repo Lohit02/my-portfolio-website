@@ -47,7 +47,7 @@ const About = () => {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={10} duration={3} />+
+                  <CountUp start={0} end={100} duration={3} />+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Leetcode <br />
@@ -56,7 +56,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={4} duration={3} /> 
+                  <CountUp start={0} end={5} duration={3} /> 
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -66,12 +66,12 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={13} duration={3} />
-                  k+
+                  <CountUp start={0} end={2} duration={5} />
+                  +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br />
-                  Clients
+                  Internship <br />
+                  Completed
                 </div>
               </div>
             </div>

@@ -26,12 +26,14 @@ const Work = () => {
                 My Latest <br />
                 Work.
               </h2>
-              <p className="max-w-sm mb-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-                veniam enim ad repudiandae odio recusandae accusantium totam
-                dolorem harum eum.
+              <p className="max-w-sm mb-8">
+                Here are some of my projects, which I have done over the years. This includes projects in Machine Learning, IOT and Web Development.
               </p>
+
+              <a href="https://github.com/Lohit02/">
               <button className="btn btn-sm">View all projects</button>
+              </a>
+             
             </div>
 
             {/* image */}
@@ -46,11 +48,11 @@ const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UX/UI Design</span>
+                <span className="text-gradient">Circuit Laboratory</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">Traffic light using 555 timer</span>
               </div>
             </div>
           </motion.div>
@@ -73,11 +75,11 @@ const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Web Design</span>
+                <span className="text-gradient">Night Patroling bottom</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-2xl text-white">An IOT Bot sensing object in darkness</span>
               </div>
             </div>
             {/* image */}
@@ -92,11 +94,11 @@ const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Modern Website</span>
+                <span className="text-gradient">Machine Learning</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">Working with Regression</span>
               </div>
             </div>
           </motion.div>
